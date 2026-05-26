@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BuildDb>
+    <Tool>
+        <Name>linker</Name>
+        <Parent>
+            <Path>E:\Jeevan\PROJECTS_EDS\AIS_140\Firmware\AIS_140\AIS_140_ewarm\project\debug\Exe\AIS_140.out</Path>
+            <Output>
+                <Path>E:\Jeevan\PROJECTS_EDS\AIS_140\Firmware\AIS_140\AIS_140_ewarm\project\debug\List\AIS_140.map</Path>
+            </Output>
+        </Parent>
+    </Tool>
+</BuildDb>

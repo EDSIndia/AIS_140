@@ -1,0 +1,735 @@
+###############################################################################
+#
+# IAR ELF Linker V9.50.1.380/W64 for ARM                  26/May/2026  10:58:26
+# Copyright 2007-2023 IAR Systems AB.
+#
+#    Output file  =
+#        E:\Jeevan\PROJECTS_EDS\AIS_140\Firmware\AIS_140\AIS_140_ewarm\project\debug\Exe\AIS_140.out
+#    Map file     =
+#        E:\Jeevan\PROJECTS_EDS\AIS_140\Firmware\AIS_140\AIS_140_ewarm\project\debug\List\AIS_140.map
+#    Command line =
+#        -f
+#        E:\Jeevan\PROJECTS_EDS\AIS_140\Firmware\AIS_140\AIS_140_ewarm\project\debug\Exe\AIS_140.out.rsp
+#        (E:\Jeevan\PROJECTS_EDS\AIS_140\Firmware\AIS_140\AIS_140_ewarm\project\debug\Obj\Core_2780535767142203951.dir\App_RAM.o
+#        E:\Jeevan\PROJECTS_EDS\AIS_140\Firmware\AIS_140\AIS_140_ewarm\project\debug\Obj\Core_2780535767142203951.dir\main.o
+#        E:\Jeevan\PROJECTS_EDS\AIS_140\Firmware\AIS_140\AIS_140_ewarm\project\debug\Obj\hal_4432538364089314290.dir\mx_cortex_mpu.o
+#        E:\Jeevan\PROJECTS_EDS\AIS_140\Firmware\AIS_140\AIS_140_ewarm\project\debug\Obj\hal_4432538364089314290.dir\mx_cortex_nvic.o
+#        E:\Jeevan\PROJECTS_EDS\AIS_140\Firmware\AIS_140\AIS_140_ewarm\project\debug\Obj\hal_4432538364089314290.dir\mx_fdcan1.o
+#        E:\Jeevan\PROJECTS_EDS\AIS_140\Firmware\AIS_140\AIS_140_ewarm\project\debug\Obj\hal_4432538364089314290.dir\mx_gpio_default.o
+#        E:\Jeevan\PROJECTS_EDS\AIS_140\Firmware\AIS_140\AIS_140_ewarm\project\debug\Obj\hal_4432538364089314290.dir\mx_icache.o
+#        E:\Jeevan\PROJECTS_EDS\AIS_140\Firmware\AIS_140\AIS_140_ewarm\project\debug\Obj\hal_4432538364089314290.dir\mx_iwdg.o
+#        E:\Jeevan\PROJECTS_EDS\AIS_140\Firmware\AIS_140\AIS_140_ewarm\project\debug\Obj\hal_4432538364089314290.dir\mx_rcc.o
+#        E:\Jeevan\PROJECTS_EDS\AIS_140\Firmware\AIS_140\AIS_140_ewarm\project\debug\Obj\hal_4432538364089314290.dir\mx_rtc.o
+#        E:\Jeevan\PROJECTS_EDS\AIS_140\Firmware\AIS_140\AIS_140_ewarm\project\debug\Obj\hal_4432538364089314290.dir\mx_spi1.o
+#        E:\Jeevan\PROJECTS_EDS\AIS_140\Firmware\AIS_140\AIS_140_ewarm\project\debug\Obj\hal_4432538364089314290.dir\mx_spi2.o
+#        E:\Jeevan\PROJECTS_EDS\AIS_140\Firmware\AIS_140\AIS_140_ewarm\project\debug\Obj\hal_4432538364089314290.dir\mx_system.o
+#        E:\Jeevan\PROJECTS_EDS\AIS_140\Firmware\AIS_140\AIS_140_ewarm\project\debug\Obj\hal_4432538364089314290.dir\mx_uart4.o
+#        E:\Jeevan\PROJECTS_EDS\AIS_140\Firmware\AIS_140\AIS_140_ewarm\project\debug\Obj\hal_4432538364089314290.dir\mx_usart1.o
+#        E:\Jeevan\PROJECTS_EDS\AIS_140\Firmware\AIS_140\AIS_140_ewarm\project\debug\Obj\hal_4432538364089314290.dir\mx_usart2.o
+#        E:\Jeevan\PROJECTS_EDS\AIS_140\Firmware\AIS_140\AIS_140_ewarm\project\debug\Obj\STM32C532RCT6_6035943374248636691.dir\startup_stm32c532xx.o
+#        E:\Jeevan\PROJECTS_EDS\AIS_140\Firmware\AIS_140\AIS_140_ewarm\project\debug\Obj\Core_2780535767142203951.dir\STM32_Config.o
+#        E:\Jeevan\PROJECTS_EDS\AIS_140\Firmware\AIS_140\AIS_140_ewarm\project\debug\Obj\hal_8047967989472228730.dir\stm32c5xx_hal.o
+#        E:\Jeevan\PROJECTS_EDS\AIS_140\Firmware\AIS_140\AIS_140_ewarm\project\debug\Obj\hal_8047967989472228730.dir\stm32c5xx_hal_adc.o
+#        E:\Jeevan\PROJECTS_EDS\AIS_140\Firmware\AIS_140\AIS_140_ewarm\project\debug\Obj\hal_8047967989472228730.dir\stm32c5xx_hal_cortex.o
+#        E:\Jeevan\PROJECTS_EDS\AIS_140\Firmware\AIS_140\AIS_140_ewarm\project\debug\Obj\hal_8047967989472228730.dir\stm32c5xx_hal_dma.o
+#        E:\Jeevan\PROJECTS_EDS\AIS_140\Firmware\AIS_140\AIS_140_ewarm\project\debug\Obj\hal_8047967989472228730.dir\stm32c5xx_hal_fdcan.o
+#        E:\Jeevan\PROJECTS_EDS\AIS_140\Firmware\AIS_140\AIS_140_ewarm\project\debug\Obj\hal_8047967989472228730.dir\stm32c5xx_hal_flash.o
+#        E:\Jeevan\PROJECTS_EDS\AIS_140\Firmware\AIS_140\AIS_140_ewarm\project\debug\Obj\hal_8047967989472228730.dir\stm32c5xx_hal_flash_itf.o
+#        E:\Jeevan\PROJECTS_EDS\AIS_140\Firmware\AIS_140\AIS_140_ewarm\project\debug\Obj\hal_8047967989472228730.dir\stm32c5xx_hal_gpio.o
+#        E:\Jeevan\PROJECTS_EDS\AIS_140\Firmware\AIS_140\AIS_140_ewarm\project\debug\Obj\hal_8047967989472228730.dir\stm32c5xx_hal_icache.o
+#        E:\Jeevan\PROJECTS_EDS\AIS_140\Firmware\AIS_140\AIS_140_ewarm\project\debug\Obj\hal_8047967989472228730.dir\stm32c5xx_hal_iwdg.o
+#        E:\Jeevan\PROJECTS_EDS\AIS_140\Firmware\AIS_140\AIS_140_ewarm\project\debug\Obj\hal_8047967989472228730.dir\stm32c5xx_hal_pwr.o
+#        E:\Jeevan\PROJECTS_EDS\AIS_140\Firmware\AIS_140\AIS_140_ewarm\project\debug\Obj\hal_8047967989472228730.dir\stm32c5xx_hal_q.o
+#        E:\Jeevan\PROJECTS_EDS\AIS_140\Firmware\AIS_140\AIS_140_ewarm\project\debug\Obj\hal_8047967989472228730.dir\stm32c5xx_hal_rcc.o
+#        E:\Jeevan\PROJECTS_EDS\AIS_140\Firmware\AIS_140\AIS_140_ewarm\project\debug\Obj\hal_8047967989472228730.dir\stm32c5xx_hal_rtc.o
+#        E:\Jeevan\PROJECTS_EDS\AIS_140\Firmware\AIS_140\AIS_140_ewarm\project\debug\Obj\STM32C532RCT6_6035943374248636691.dir\system_stm32c5xx.o
+#        --no_out_extension -o
+#        E:\Jeevan\PROJECTS_EDS\AIS_140\Firmware\AIS_140\AIS_140_ewarm\project\debug\Exe\AIS_140.out
+#        --map
+#        E:\Jeevan\PROJECTS_EDS\AIS_140\Firmware\AIS_140\AIS_140_ewarm\project\debug\List\AIS_140.map
+#        --config
+#        E:\Jeevan\PROJECTS_EDS\AIS_140\Firmware\AIS_140\AIS_140_ewarm\project/user_modifiable/Device/STM32C532RCT6/stm32c53xxc_flash.icf
+#        --entry __iar_program_start --inline --vfe --text_out locale
+#        --cpu=Cortex-M33.no_dsp.no_se --fpu=None) --dependencies=n
+#        E:\Jeevan\PROJECTS_EDS\AIS_140\Firmware\AIS_140\AIS_140_ewarm\project\debug\Exe\AIS_140.out.iar_deps
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__CPP_Runtime   = 1
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because --advanced_heap
+was not specified and the application did not appear to
+be primarily optimized for speed.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at start of [from 0x800'0000 to 0x803'ffff] { ro section .intvec };
+"P1":  place in [from 0x800'0000 to 0x803'ffff] { ro };
+define block HEAP with size = 512, alignment = 8 { };
+define block CSTACK with size = 1K, alignment = 8 { };
+"P2":  place in [from 0x2000'0000 to 0x2000'ffff] {
+          rw, block HEAP, block CSTACK };
+initialize by copy { rw };
+
+  Section            Kind         Address  Aligment    Size  Object
+  -------            ----         -------  --------    ----  ------
+"A0":                                                 0x1a4
+  .intvec            const     0x800'0000         4   0x1a4  startup_stm32c532xx.o [2]
+                             - 0x800'01a4             0x1a4
+
+"P1":                                                0x2a6e
+  .text              ro code   0x800'01a4         4   0x47e  stm32c5xx_hal_rcc.o [4]
+  .text              ro code   0x800'0622         2    0x2a  copy_init3.o [6]
+  .text              ro code   0x800'064c         4     0xc  stm32c5xx_hal.o [4]
+  .text              ro code   0x800'0658         4   0x35a  stm32c5xx_hal_fdcan.o [4]
+  .text              ro code   0x800'09b2         2     0x2  startup_stm32c532xx.o [2]
+  .text              ro code   0x800'09b4         4   0x324  stm32c5xx_hal_cortex.o [4]
+  .text              ro code   0x800'0cd8         4   0x2da  stm32c5xx_hal_rtc.o [4]
+  .text              ro code   0x800'0fb4         4   0x2cc  mx_uart4.o [3]
+  .text              ro code   0x800'1280         4   0x2cc  mx_usart1.o [3]
+  .text              ro code   0x800'154c         4   0x2b8  mx_usart2.o [3]
+  .text              ro code   0x800'1804         2   0x246  stm32c5xx_hal_gpio.o [4]
+  .text              ro code   0x800'1a4c         4   0x240  mx_spi1.o [3]
+  .text              ro code   0x800'1c8c         4   0x210  mx_spi2.o [3]
+  .text              ro code   0x800'1e9c         4   0x188  mx_fdcan1.o [3]
+  .text              ro code   0x800'2024         4    0x56  ABImemcpy_unaligned.o [6]
+  .text              ro code   0x800'207c         4   0x144  mx_gpio_default.o [3]
+  .text              ro code   0x800'21c0         2   0x138  mx_system.o [3]
+  .text              ro code   0x800'22f8         4    0x54  mx_cortex_mpu.o [3]
+  .text              ro code   0x800'234c         4    0x74  stm32c5xx_hal.o [4]
+  .text              ro code   0x800'23c0         4    0x36  mx_cortex_nvic.o [3]
+  .text              ro code   0x800'23f8         4    0x28  mx_icache.o [3]
+  .text              ro code   0x800'2420         2    0x44  stm32c5xx_hal_icache.o [4]
+  .text              ro code   0x800'2464         4    0xdc  mx_rcc.o [3]
+  .text              ro code   0x800'2540         4   0x100  STM32_Config.o [1]
+  .text              ro code   0x800'2640         4    0x24  mx_iwdg.o [3]
+  .text              ro code   0x800'2664         4   0x11a  mx_rtc.o [3]
+  .text              ro code   0x800'2780         4    0x18  stm32c5xx_hal.o [4]
+  .text              ro code   0x800'2798         4    0x66  ABImemset.o [6]
+  .text              ro code   0x800'2800         4    0x50  stm32c5xx_hal.o [4]
+  .text              ro code   0x800'2850         4    0x44  stm32c5xx_hal_flash_itf.o [4]
+  .text              ro code   0x800'2894         4   0x11c  stm32c5xx_hal_adc.o [4]
+  .text              ro code   0x800'29b0         4    0x30  stm32c5xx_hal_iwdg.o [4]
+  .text              ro code   0x800'29e0         4    0x1c  stm32c5xx_hal_pwr.o [4]
+  .rodata            const     0x800'29fc         4    0x40  mx_uart4.o [3]
+  .rodata            const     0x800'2a3c         4    0x40  mx_usart1.o [3]
+  .rodata            const     0x800'2a7c         4    0x40  mx_usart2.o [3]
+  .text              ro code   0x800'2abc         2    0x38  zero_init3.o [6]
+  .text              ro code   0x800'2af4         4    0x2a  data_init.o [6]
+  .text              ro code   0x800'2b20         4    0x24  startup_stm32c532xx.o [2]
+  .text              ro code   0x800'2b44         4    0x18  system_stm32c5xx.o [2]
+  .text              ro code   0x800'2b5c         4    0x1c  cstartup_M.o [6]
+  .text              ro code   0x800'2b78         4    0x1e  cmain.o [6]
+  .text              ro code   0x800'2b96         2    0x16  main.o [1]
+  .text              ro code   0x800'2bac         2     0x4  exit.o [5]
+  .text              ro code   0x800'2bb0         4     0xa  cexit.o [6]
+  .text              ro code   0x800'2bbc         4     0xc  XXexit.o [6]
+  .iar.init_table    const     0x800'2bc8         4    0x24  - Linker created -
+  .rodata            const     0x800'2bec         4    0x10  system_stm32c5xx.o [2]
+  Initializer bytes  const     0x800'2bfc         4     0xc  <for P2-1>
+  .text              ro code   0x800'2c08         2     0x8  startup_stm32c532xx.o [2]
+  .text              ro code   0x800'2c10         2     0x2  startup_stm32c532xx.o [2]
+  .rodata            const     0x800'2c12               0x0  zero_init3.o [6]
+  .rodata            const     0x800'2c12               0x0  copy_init3.o [6]
+                             - 0x800'2c12            0x2a6e
+
+"P2", part 1 of 3:                                      0xc
+  P2-1                        0x2000'0000         4     0x9  <Init block>
+    .data            inited   0x2000'0000         4     0x4  stm32c5xx_hal.o [4]
+    .data            inited   0x2000'0004         4     0x4  system_stm32c5xx.o [2]
+    .data            inited   0x2000'0008               0x1  stm32c5xx_hal.o [4]
+                            - 0x2000'0009               0x9
+
+"P2", part 2 of 3:                                     0x54
+  .bss               zero     0x2000'000c         4    0x24  mx_fdcan1.o [3]
+  .bss               zero     0x2000'0030         4    0x18  App_RAM.o [1]
+  .bss               zero     0x2000'0048         4     0xc  mx_iwdg.o [3]
+  .bss               zero     0x2000'0054         4     0x8  mx_icache.o [3]
+  .bss               zero     0x2000'005c         4     0x4  stm32c5xx_hal.o [4]
+                            - 0x2000'0060              0x54
+
+"P2", part 3 of 3:                                    0x400
+  CSTACK                      0x2000'0060         8   0x400  <Block>
+    CSTACK           uninit   0x2000'0060             0x400  <Block tail>
+                            - 0x2000'0460             0x400
+
+Unused ranges:
+
+         From           To      Size
+         ----           --      ----
+   0x800'2c12   0x803'ffff  0x3'd3ee
+  0x2000'0460  0x2000'ffff    0xfba0
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x54:
+          0x2000'000c  0x54
+
+Copy (__iar_copy_init3)
+    1 source range, total size 0xc (133% of destination):
+           0x800'2bfc   0xc
+    1 destination range, total size 0x9:
+          0x2000'0000   0x9
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                     ro code  ro data  rw data
+    ------                     -------  -------  -------
+command line/config:
+    ----------------------------------------------------
+    Total:
+
+E:\Jeevan\PROJECTS_EDS\AIS_140\Firmware\AIS_140\AIS_140_ewarm\project\debug\Obj\Core_2780535767142203951.dir: [1]
+    App_RAM.o                                         24
+    STM32_Config.o                 256
+    main.o                          22
+    ----------------------------------------------------
+    Total:                         278                24
+
+E:\Jeevan\PROJECTS_EDS\AIS_140\Firmware\AIS_140\AIS_140_ewarm\project\debug\Obj\STM32C532RCT6_6035943374248636691.dir: [2]
+    startup_stm32c532xx.o           48      420
+    system_stm32c5xx.o              24       20        4
+    ----------------------------------------------------
+    Total:                          72      440        4
+
+E:\Jeevan\PROJECTS_EDS\AIS_140\Firmware\AIS_140\AIS_140_ewarm\project\debug\Obj\hal_4432538364089314290.dir: [3]
+    mx_cortex_mpu.o                 84
+    mx_cortex_nvic.o                54
+    mx_fdcan1.o                    392                36
+    mx_gpio_default.o              324
+    mx_icache.o                     40                 8
+    mx_iwdg.o                       36                12
+    mx_rcc.o                       220
+    mx_rtc.o                       282
+    mx_spi1.o                      576
+    mx_spi2.o                      528
+    mx_system.o                    312
+    mx_uart4.o                     716       64
+    mx_usart1.o                    716       64
+    mx_usart2.o                    696       64
+    ----------------------------------------------------
+    Total:                       4'976      192       56
+
+E:\Jeevan\PROJECTS_EDS\AIS_140\Firmware\AIS_140\AIS_140_ewarm\project\debug\Obj\hal_8047967989472228730.dir: [4]
+    stm32c5xx_hal.o                232        5        9
+    stm32c5xx_hal_adc.o            284
+    stm32c5xx_hal_cortex.o         804
+    stm32c5xx_hal_fdcan.o          858
+    stm32c5xx_hal_flash_itf.o       68
+    stm32c5xx_hal_gpio.o           582
+    stm32c5xx_hal_icache.o          68
+    stm32c5xx_hal_iwdg.o            48
+    stm32c5xx_hal_pwr.o             28
+    stm32c5xx_hal_rcc.o          1'150
+    stm32c5xx_hal_rtc.o            730
+    ----------------------------------------------------
+    Total:                       4'852        5        9
+
+dl7M_tln.a: [5]
+    exit.o                           4
+    ----------------------------------------------------
+    Total:                           4
+
+rt7M_tl.a: [6]
+    ABImemcpy_unaligned.o           86
+    ABImemset.o                    102
+    XXexit.o                        12
+    cexit.o                         10
+    cmain.o                         30
+    copy_init3.o                    42
+    cstartup_M.o                    28
+    data_init.o                     42
+    zero_init3.o                    56
+    ----------------------------------------------------
+    Total:                         408
+
+    Gaps                            16
+    Linker created                           39    1'024
+--------------------------------------------------------
+    Grand Total:                10'606      676    1'117
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address   Size  Type      Object
+-----                       -------   ----  ----      ------
+.iar.init_table$$Base    0x800'2bc8          --   Gb  - Linker created -
+.iar.init_table$$Limit   0x800'2bec          --   Gb  - Linker created -
+?main                    0x800'2b79         Code  ??  cmain.o [6]
+ADC1_IRQHandler          0x800'2c09    0x8  Code  Wk  startup_stm32c532xx.o [2]
+AHBPrescTable            0x800'2bec   0x10  Data  ??  system_stm32c5xx.o [2]
+ARM_MPU_Disable          0x800'0a99   0x26  Code  Lc  stm32c5xx_hal_cortex.o [4]
+ARM_MPU_Enable           0x800'0a75   0x24  Code  Lc  stm32c5xx_hal_cortex.o [4]
+ARM_MPU_SetMemAttr       0x800'0b01   0x18  Code  Lc  stm32c5xx_hal_cortex.o [4]
+ARM_MPU_SetMemAttrEx     0x800'0abf   0x42  Code  Lc  stm32c5xx_hal_cortex.o [4]
+ARM_MPU_SetRegion        0x800'0b21   0x18  Code  Lc  stm32c5xx_hal_cortex.o [4]
+ARM_MPU_SetRegionEx      0x800'0b19    0x8  Code  Lc  stm32c5xx_hal_cortex.o [4]
+BusFault_Handler         0x800'2c09    0x8  Code  Wk  startup_stm32c532xx.o [2]
+COMP1_IRQHandler         0x800'2c09    0x8  Code  Wk  startup_stm32c532xx.o [2]
+COMP2_IRQHandler         0x800'2c09    0x8  Code  Wk  startup_stm32c532xx.o [2]
+CORDIC_IRQHandler        0x800'2c09    0x8  Code  Wk  startup_stm32c532xx.o [2]
+CRS_IRQHandler           0x800'2c09    0x8  Code  Wk  startup_stm32c532xx.o [2]
+CSTACK$$Base            0x2000'0060         Data  ??  - Linker created -
+CSTACK$$Limit           0x2000'0460         Data  ??  - Linker created -
+DAC1_IRQHandler          0x800'2c09    0x8  Code  Wk  startup_stm32c532xx.o [2]
+DebugMon_Handler         0x800'2c09    0x8  Code  Wk  startup_stm32c532xx.o [2]
+Default_IRQHandler       0x800'2c09    0x8  Code  ??  startup_stm32c532xx.o [2]
+Default_IRQHandler_Hook
+                         0x800'2c11    0x2  Code  Wk  startup_stm32c532xx.o [2]
+EXTI0_IRQHandler         0x800'2c09    0x8  Code  Wk  startup_stm32c532xx.o [2]
+EXTI10_IRQHandler        0x800'2c09    0x8  Code  Wk  startup_stm32c532xx.o [2]
+EXTI11_IRQHandler        0x800'2c09    0x8  Code  Wk  startup_stm32c532xx.o [2]
+EXTI12_IRQHandler        0x800'2c09    0x8  Code  Wk  startup_stm32c532xx.o [2]
+EXTI13_IRQHandler        0x800'2c09    0x8  Code  Wk  startup_stm32c532xx.o [2]
+EXTI14_IRQHandler        0x800'2c09    0x8  Code  Wk  startup_stm32c532xx.o [2]
+EXTI15_IRQHandler        0x800'2c09    0x8  Code  Wk  startup_stm32c532xx.o [2]
+EXTI1_IRQHandler         0x800'2c09    0x8  Code  Wk  startup_stm32c532xx.o [2]
+EXTI2_IRQHandler         0x800'2c09    0x8  Code  Wk  startup_stm32c532xx.o [2]
+EXTI3_IRQHandler         0x800'2c09    0x8  Code  Wk  startup_stm32c532xx.o [2]
+EXTI4_IRQHandler         0x800'2c09    0x8  Code  Wk  startup_stm32c532xx.o [2]
+EXTI5_IRQHandler         0x800'2c09    0x8  Code  Wk  startup_stm32c532xx.o [2]
+EXTI6_IRQHandler         0x800'2c09    0x8  Code  Wk  startup_stm32c532xx.o [2]
+EXTI7_IRQHandler         0x800'2c09    0x8  Code  Wk  startup_stm32c532xx.o [2]
+EXTI8_IRQHandler         0x800'2c09    0x8  Code  Wk  startup_stm32c532xx.o [2]
+EXTI9_IRQHandler         0x800'2c09    0x8  Code  Wk  startup_stm32c532xx.o [2]
+FDCAN1_IT0_IRQHandler    0x800'1fff    0xa  Code  ??  mx_fdcan1.o [3]
+FDCAN1_IT1_IRQHandler    0x800'2c09    0x8  Code  Wk  startup_stm32c532xx.o [2]
+FDCAN2_IT0_IRQHandler    0x800'2c09    0x8  Code  Wk  startup_stm32c532xx.o [2]
+FDCAN2_IT1_IRQHandler    0x800'2c09    0x8  Code  Wk  startup_stm32c532xx.o [2]
+FDCAN_ComputeRAMBlockAddresses
+                         0x800'08a7   0x6a  Code  Lc  stm32c5xx_hal_fdcan.o [4]
+FDCAN_InitRequest        0x800'0989   0x2a  Code  Lc  stm32c5xx_hal_fdcan.o [4]
+FDCAN_ResetClockStopRequest
+                         0x800'095f   0x2a  Code  Lc  stm32c5xx_hal_fdcan.o [4]
+FDCAN_SetDataBitTiming   0x800'0887   0x20  Code  Lc  stm32c5xx_hal_fdcan.o [4]
+FDCAN_SetNominalBitTiming
+                         0x800'0867   0x20  Code  Lc  stm32c5xx_hal_fdcan.o [4]
+FDCAN_WaitOnFlagUntilTimeout
+                         0x800'0921   0x3e  Code  Lc  stm32c5xx_hal_fdcan.o [4]
+FLASH_IRQHandler         0x800'2c09    0x8  Code  Wk  startup_stm32c532xx.o [2]
+FPU_IRQHandler           0x800'2c09    0x8  Code  Wk  startup_stm32c532xx.o [2]
+HAL_ADC_Init             0x800'28d9   0x16  Code  ??  stm32c5xx_hal_adc.o [4]
+HAL_ADC_REG_SetConfig    0x800'291d   0x8e  Code  ??  stm32c5xx_hal_adc.o [4]
+HAL_ADC_SetConfig        0x800'28ef   0x2e  Code  ??  stm32c5xx_hal_adc.o [4]
+HAL_CORTEX_MPU_Disable   0x800'0c43    0x8  Code  ??  stm32c5xx_hal_cortex.o [4]
+HAL_CORTEX_MPU_Enable    0x800'0c2d   0x16  Code  ??  stm32c5xx_hal_cortex.o [4]
+HAL_CORTEX_MPU_EnableRegion
+                         0x800'0c91   0x14  Code  ??  stm32c5xx_hal_cortex.o [4]
+HAL_CORTEX_MPU_SetCacheMemAttr
+                         0x800'0c4b   0x16  Code  ??  stm32c5xx_hal_cortex.o [4]
+HAL_CORTEX_MPU_SetConfigRegion
+                         0x800'0c61   0x30  Code  ??  stm32c5xx_hal_cortex.o [4]
+HAL_CORTEX_NVIC_EnableIRQ
+                         0x800'0bc9    0xe  Code  ??  stm32c5xx_hal_cortex.o [4]
+HAL_CORTEX_NVIC_SetPriority
+                         0x800'0ba5   0x24  Code  ??  stm32c5xx_hal_cortex.o [4]
+HAL_CORTEX_NVIC_SetPriorityGrouping
+                         0x800'0b97    0xe  Code  ??  stm32c5xx_hal_cortex.o [4]
+HAL_CORTEX_SYSTICK_IRQHandler
+                         0x800'0c25    0x8  Code  ??  stm32c5xx_hal_cortex.o [4]
+HAL_CORTEX_SYSTICK_SetClkSource
+                         0x800'0c17    0xe  Code  ??  stm32c5xx_hal_cortex.o [4]
+HAL_CORTEX_SYSTICK_SetFreq
+                         0x800'0bd7   0x40  Code  ??  stm32c5xx_hal_cortex.o [4]
+HAL_FDCAN_IRQHandler     0x800'076b   0xfc  Code  ??  stm32c5xx_hal_fdcan.o [4]
+HAL_FDCAN_Init           0x800'0659   0x14  Code  ??  stm32c5xx_hal_fdcan.o [4]
+HAL_FDCAN_SetClockDivider
+                         0x800'0759   0x12  Code  ??  stm32c5xx_hal_fdcan.o [4]
+HAL_FDCAN_SetConfig      0x800'066d   0xbe  Code  ??  stm32c5xx_hal_fdcan.o [4]
+HAL_FDCAN_SetGlobalFilter
+                         0x800'072b   0x2e  Code  ??  stm32c5xx_hal_fdcan.o [4]
+HAL_FLASH_ITF_SetLatency
+                         0x800'2869   0x16  Code  ??  stm32c5xx_hal_flash_itf.o [4]
+HAL_FLASH_ITF_SetProgrammingDelay
+                         0x800'287f   0x16  Code  ??  stm32c5xx_hal_flash_itf.o [4]
+HAL_GPIO_Init            0x800'1981   0xca  Code  ??  stm32c5xx_hal_gpio.o [4]
+HAL_GetTick              0x800'064d    0xc  Code  Wk  stm32c5xx_hal.o [4]
+HAL_ICACHE_Init          0x800'2433   0x10  Code  ??  stm32c5xx_hal_icache.o [4]
+HAL_ICACHE_Start         0x800'2443   0x22  Code  ??  stm32c5xx_hal_icache.o [4]
+HAL_IWDG_Init            0x800'29bb   0x26  Code  ??  stm32c5xx_hal_iwdg.o [4]
+HAL_IncTick              0x800'2781   0x18  Code  Wk  stm32c5xx_hal.o [4]
+HAL_Init                 0x800'2361   0x2e  Code  ??  stm32c5xx_hal.o [4]
+HAL_InitTick             0x800'2801   0x50  Code  Wk  stm32c5xx_hal.o [4]
+HAL_PWR_DisableRTCDomainWriteProtection
+                         0x800'29ef    0x8  Code  ??  stm32c5xx_hal_pwr.o [4]
+HAL_RCC_ADC12_EnableClock
+                         0x800'2579    0xc  Code  Lc  STM32_Config.o [1]
+HAL_RCC_ADCDAC_SetKernelClkPrescaler
+                         0x800'056d   0x12  Code  ??  stm32c5xx_hal_rcc.o [4]
+HAL_RCC_ADCDAC_SetKernelClkSource
+                         0x800'050b   0x12  Code  ??  stm32c5xx_hal_rcc.o [4]
+HAL_RCC_FDCAN_EnableClock
+                         0x800'1eef    0xc  Code  Lc  mx_fdcan1.o [3]
+HAL_RCC_FDCAN_SetKernelClkSource
+                         0x800'04fb   0x10  Code  ??  stm32c5xx_hal_rcc.o [4]
+HAL_RCC_GPIOA_EnableClock
+                         0x800'1ee5    0xa  Code  Lc  mx_fdcan1.o [3]
+HAL_RCC_GPIOA_EnableClock
+                         0x800'20a1    0xa  Code  Lc  mx_gpio_default.o [3]
+HAL_RCC_GPIOA_EnableClock
+                         0x800'2565    0xa  Code  Lc  STM32_Config.o [1]
+HAL_RCC_GPIOB_EnableClock
+                         0x800'20ab    0xa  Code  Lc  mx_gpio_default.o [3]
+HAL_RCC_GPIOC_EnableClock
+                         0x800'20b5    0xa  Code  Lc  mx_gpio_default.o [3]
+HAL_RCC_GPIOC_EnableClock
+                         0x800'256f    0xa  Code  Lc  STM32_Config.o [1]
+HAL_RCC_GetHCLKFreq      0x800'04bd   0x18  Code  ??  stm32c5xx_hal_rcc.o [4]
+HAL_RCC_GetPSIClockFreq
+                         0x800'0429   0x68  Code  ??  stm32c5xx_hal_rcc.o [4]
+HAL_RCC_GetSYSCLKFreq    0x800'0491   0x2c  Code  ??  stm32c5xx_hal_rcc.o [4]
+HAL_RCC_GetSYSCLKSource
+                         0x800'03fd    0xc  Code  ??  stm32c5xx_hal_rcc.o [4]
+HAL_RCC_GetSysTickExternalClkFreq
+                         0x800'05bd   0x2e  Code  ??  stm32c5xx_hal_rcc.o [4]
+HAL_RCC_HSIS_Enable      0x800'032d   0x14  Code  ??  stm32c5xx_hal_rcc.o [4]
+HAL_RCC_LSI_Enable       0x800'0341   0x14  Code  ??  stm32c5xx_hal_rcc.o [4]
+HAL_RCC_PSIS_Enable      0x800'0355   0x14  Code  ??  stm32c5xx_hal_rcc.o [4]
+HAL_RCC_PSI_GetConfig    0x800'03a7   0x1c  Code  ??  stm32c5xx_hal_rcc.o [4]
+HAL_RCC_PSI_SetConfig    0x800'0371   0x36  Code  ??  stm32c5xx_hal_rcc.o [4]
+HAL_RCC_RTCAPB_EnableClock
+                         0x800'2691    0xc  Code  Lc  mx_rtc.o [3]
+HAL_RCC_RTC_EnableKernelClock
+                         0x800'04e1   0x1a  Code  ??  stm32c5xx_hal_rcc.o [4]
+HAL_RCC_RTC_SetKernelClkSource
+                         0x800'051d   0x40  Code  ??  stm32c5xx_hal_rcc.o [4]
+HAL_RCC_ResetRTCDomain   0x800'0321    0xc  Code  Lc  stm32c5xx_hal_rcc.o [4]
+HAL_RCC_SetBusClockConfig
+                         0x800'0409   0x20  Code  ??  stm32c5xx_hal_rcc.o [4]
+HAL_RCC_SetSYSCLKSource
+                         0x800'03c3   0x3a  Code  ??  stm32c5xx_hal_rcc.o [4]
+HAL_RTC_CALENDAR_SetConfig
+                         0x800'0eab   0x12  Code  ??  stm32c5xx_hal_rtc.o [4]
+HAL_RTC_CALENDAR_SetDateTime
+                         0x800'0ebd   0x98  Code  ??  stm32c5xx_hal_rtc.o [4]
+HAL_RTC_DisableWriteProtection
+                         0x800'0e19    0xc  Code  ??  stm32c5xx_hal_rtc.o [4]
+HAL_RTC_EnableWriteProtection
+                         0x800'0e0d    0xc  Code  ??  stm32c5xx_hal_rtc.o [4]
+HAL_RTC_EnterInitMode    0x800'0e25   0x36  Code  ??  stm32c5xx_hal_rtc.o [4]
+HAL_RTC_ExitInitMode     0x800'0e5b   0x1c  Code  ??  stm32c5xx_hal_rtc.o [4]
+HAL_RTC_SetConfig        0x800'0e77   0x34  Code  ??  stm32c5xx_hal_rtc.o [4]
+HAL_UpdateCoreClock      0x800'238f   0x18  Code  ??  stm32c5xx_hal.o [4]
+HASH_IRQHandler          0x800'2c09    0x8  Code  Wk  startup_stm32c532xx.o [2]
+HardFault_Handler        0x800'09b3    0x2  Code  Wk  startup_stm32c532xx.o [2]
+I2C1_ERR_IRQHandler      0x800'2c09    0x8  Code  Wk  startup_stm32c532xx.o [2]
+I2C1_EV_IRQHandler       0x800'2c09    0x8  Code  Wk  startup_stm32c532xx.o [2]
+I3C1_ERR_IRQHandler      0x800'2c09    0x8  Code  Wk  startup_stm32c532xx.o [2]
+I3C1_EV_IRQHandler       0x800'2c09    0x8  Code  Wk  startup_stm32c532xx.o [2]
+ICACHE_IRQHandler        0x800'2c09    0x8  Code  Wk  startup_stm32c532xx.o [2]
+IWDG_IRQHandler          0x800'2c09    0x8  Code  Wk  startup_stm32c532xx.o [2]
+LL_ADC_GetSamplingMode   0x800'28c5    0x8  Code  Lc  stm32c5xx_hal_adc.o [4]
+LL_ADC_REG_SetSequencerLength
+                         0x800'28cd    0xc  Code  Lc  stm32c5xx_hal_adc.o [4]
+LL_ADC_REG_SetTriggerEdge
+                         0x800'28ad    0xc  Code  Lc  stm32c5xx_hal_adc.o [4]
+LL_ADC_REG_SetTriggerSource
+                         0x800'28a1    0xc  Code  Lc  stm32c5xx_hal_adc.o [4]
+LL_ADC_SetResolution     0x800'2895    0xc  Code  Lc  stm32c5xx_hal_adc.o [4]
+LL_ADC_SetSamplingMode   0x800'28b9    0xc  Code  Lc  stm32c5xx_hal_adc.o [4]
+LL_AHB2_GRP1_EnableClock
+                         0x800'1e9d   0x24  Code  Lc  mx_fdcan1.o [3]
+LL_AHB2_GRP1_EnableClock
+                         0x800'207d   0x24  Code  Lc  mx_gpio_default.o [3]
+LL_AHB2_GRP1_EnableClock
+                         0x800'1a4d   0x24  Code  Lc  mx_spi1.o [3]
+LL_AHB2_GRP1_EnableClock
+                         0x800'1c8d   0x24  Code  Lc  mx_spi2.o [3]
+LL_AHB2_GRP1_EnableClock
+                         0x800'1051   0x28  Code  Lc  mx_uart4.o [3]
+LL_AHB2_GRP1_EnableClock
+                         0x800'131d   0x28  Code  Lc  mx_usart1.o [3]
+LL_AHB2_GRP1_EnableClock
+                         0x800'15e9   0x24  Code  Lc  mx_usart2.o [3]
+LL_AHB2_GRP1_EnableClock
+                         0x800'2541   0x24  Code  Lc  STM32_Config.o [1]
+LL_APB1_GRP1_EnableClock
+                         0x800'1cb1   0x24  Code  Lc  mx_spi2.o [3]
+LL_APB1_GRP1_EnableClock
+                         0x800'1079   0x24  Code  Lc  mx_uart4.o [3]
+LL_APB1_GRP1_EnableClock
+                         0x800'160d   0x24  Code  Lc  mx_usart2.o [3]
+LL_APB1_GRP2_EnableClock
+                         0x800'1ec1   0x24  Code  Lc  mx_fdcan1.o [3]
+LL_APB2_GRP1_EnableClock
+                         0x800'1a71   0x24  Code  Lc  mx_spi1.o [3]
+LL_APB2_GRP1_EnableClock
+                         0x800'1345   0x24  Code  Lc  mx_usart1.o [3]
+LL_APB3_GRP1_EnableClock
+                         0x800'2665   0x24  Code  Lc  mx_rtc.o [3]
+LL_FLASH_EnablePrefetch
+                         0x800'2357    0xa  Code  Lc  stm32c5xx_hal.o [4]
+LL_FLASH_SetLatency      0x800'2851    0xc  Code  Lc  stm32c5xx_hal_flash_itf.o [4]
+LL_FLASH_SetProgrammingDelay
+                         0x800'285d    0xc  Code  Lc  stm32c5xx_hal_flash_itf.o [4]
+LL_GPIO_SetAFPin_0_7     0x800'1b53   0x42  Code  Lc  mx_spi1.o [3]
+LL_GPIO_SetAFPin_0_7     0x800'166b   0x42  Code  Lc  mx_usart2.o [3]
+LL_GPIO_SetAFPin_0_7     0x800'18e3   0x42  Code  Lc  stm32c5xx_hal_gpio.o [4]
+LL_GPIO_SetAFPin_8_15    0x800'1d51   0x4a  Code  Lc  mx_spi2.o [3]
+LL_GPIO_SetAFPin_8_15    0x800'10d7   0x4a  Code  Lc  mx_uart4.o [3]
+LL_GPIO_SetAFPin_8_15    0x800'13a3   0x4a  Code  Lc  mx_usart1.o [3]
+LL_GPIO_SetAFPin_8_15    0x800'1925   0x4a  Code  Lc  stm32c5xx_hal_gpio.o [4]
+LL_GPIO_SetPinMode       0x800'1a95   0x3a  Code  Lc  mx_spi1.o [3]
+LL_GPIO_SetPinMode       0x800'1cd5   0x3a  Code  Lc  mx_spi2.o [3]
+LL_GPIO_SetPinMode       0x800'109d   0x3a  Code  Lc  mx_uart4.o [3]
+LL_GPIO_SetPinMode       0x800'1369   0x3a  Code  Lc  mx_usart1.o [3]
+LL_GPIO_SetPinMode       0x800'1631   0x3a  Code  Lc  mx_usart2.o [3]
+LL_GPIO_SetPinMode       0x800'1805   0x3a  Code  Lc  stm32c5xx_hal_gpio.o [4]
+LL_GPIO_SetPinOutputType
+                         0x800'183f   0x20  Code  Lc  stm32c5xx_hal_gpio.o [4]
+LL_GPIO_SetPinPull       0x800'1b11   0x42  Code  Lc  mx_spi1.o [3]
+LL_GPIO_SetPinPull       0x800'18a1   0x42  Code  Lc  stm32c5xx_hal_gpio.o [4]
+LL_GPIO_SetPinSpeed      0x800'1acf   0x42  Code  Lc  mx_spi1.o [3]
+LL_GPIO_SetPinSpeed      0x800'1d0f   0x42  Code  Lc  mx_spi2.o [3]
+LL_GPIO_SetPinSpeed      0x800'185f   0x42  Code  Lc  stm32c5xx_hal_gpio.o [4]
+LL_GPIO_WriteOutputPin   0x800'196f   0x12  Code  Lc  stm32c5xx_hal_gpio.o [4]
+LL_ICACHE_Enable         0x800'2421    0xa  Code  Lc  stm32c5xx_hal_icache.o [4]
+LL_ICACHE_EnableIT       0x800'242b    0x8  Code  Lc  stm32c5xx_hal_icache.o [4]
+LL_IWDG_IsActiveFlag_ONF
+                         0x800'29b1    0xa  Code  Lc  stm32c5xx_hal_iwdg.o [4]
+LL_PWR_DisableRTCDomainWriteProtection
+                         0x800'29e1    0xe  Code  Lc  stm32c5xx_hal_pwr.o [4]
+LL_PWR_IsEnabledRTCDomainWriteProtection
+                         0x800'0311   0x10  Code  Lc  stm32c5xx_hal_rcc.o [4]
+LL_RCC_ConfigBusClock    0x800'0289   0x12  Code  Lc  stm32c5xx_hal_rcc.o [4]
+LL_RCC_ConfigPSI         0x800'0215   0x1a  Code  Lc  stm32c5xx_hal_rcc.o [4]
+LL_RCC_EnableRTC         0x800'02e7    0xe  Code  Lc  stm32c5xx_hal_rcc.o [4]
+LL_RCC_ForceRTCDomainReset
+                         0x800'02f5    0xe  Code  Lc  stm32c5xx_hal_rcc.o [4]
+LL_RCC_GetAHBPrescaler   0x800'234d    0xa  Code  Lc  stm32c5xx_hal.o [4]
+LL_RCC_GetAHBPrescaler   0x800'0271    0xc  Code  Lc  stm32c5xx_hal_rcc.o [4]
+LL_RCC_GetConfigPSI      0x800'022f   0x26  Code  Lc  stm32c5xx_hal_rcc.o [4]
+LL_RCC_GetRTCClockSource
+                         0x800'02db    0xc  Code  Lc  stm32c5xx_hal_rcc.o [4]
+LL_RCC_GetSysClkSource   0x800'0265    0xc  Code  Lc  stm32c5xx_hal_rcc.o [4]
+LL_RCC_GetSystickClockSource
+                         0x800'027d    0xc  Code  Lc  stm32c5xx_hal_rcc.o [4]
+LL_RCC_HSIS_Enable       0x800'01c1    0xe  Code  Lc  stm32c5xx_hal_rcc.o [4]
+LL_RCC_HSIS_IsReady      0x800'01cf    0xe  Code  Lc  stm32c5xx_hal_rcc.o [4]
+LL_RCC_LSI_Enable        0x800'01a5    0xe  Code  Lc  stm32c5xx_hal_rcc.o [4]
+LL_RCC_LSI_IsReady       0x800'01b3    0xe  Code  Lc  stm32c5xx_hal_rcc.o [4]
+LL_RCC_PSIDIV3_IsReady   0x800'01f9    0xe  Code  Lc  stm32c5xx_hal_rcc.o [4]
+LL_RCC_PSIK_IsReady      0x800'0207    0xe  Code  Lc  stm32c5xx_hal_rcc.o [4]
+LL_RCC_PSIS_Enable       0x800'01dd    0xe  Code  Lc  stm32c5xx_hal_rcc.o [4]
+LL_RCC_PSIS_IsReady      0x800'01eb    0xe  Code  Lc  stm32c5xx_hal_rcc.o [4]
+LL_RCC_ReleaseRTCDomainReset
+                         0x800'0303    0xe  Code  Lc  stm32c5xx_hal_rcc.o [4]
+LL_RCC_SetADCDACClockSource
+                         0x800'02ab   0x10  Code  Lc  stm32c5xx_hal_rcc.o [4]
+LL_RCC_SetADCDACPrescaler
+                         0x800'02bb   0x10  Code  Lc  stm32c5xx_hal_rcc.o [4]
+LL_RCC_SetFDCANClockSource
+                         0x800'029b   0x10  Code  Lc  stm32c5xx_hal_rcc.o [4]
+LL_RCC_SetRTCClockSource
+                         0x800'02cb   0x10  Code  Lc  stm32c5xx_hal_rcc.o [4]
+LL_RCC_SetSysClkSource   0x800'0255   0x10  Code  Lc  stm32c5xx_hal_rcc.o [4]
+LL_RTC_ClearFlag_RS      0x800'0dff    0xe  Code  Lc  stm32c5xx_hal_rtc.o [4]
+LL_RTC_DATE_Config       0x800'0da5   0x3e  Code  Lc  stm32c5xx_hal_rtc.o [4]
+LL_RTC_DisableInitMode   0x800'0ce7    0xe  Code  Lc  stm32c5xx_hal_rtc.o [4]
+LL_RTC_DisableWriteProtection
+                         0x800'0d5f    0xe  Code  Lc  stm32c5xx_hal_rtc.o [4]
+LL_RTC_EnableInitMode    0x800'0cd9    0xe  Code  Lc  stm32c5xx_hal_rtc.o [4]
+LL_RTC_EnableWriteProtection
+                         0x800'0d55    0xa  Code  Lc  stm32c5xx_hal_rtc.o [4]
+LL_RTC_IsActiveFlag_INIT
+                         0x800'0de3    0xe  Code  Lc  stm32c5xx_hal_rtc.o [4]
+LL_RTC_IsActiveFlag_RS   0x800'0df1    0xe  Code  Lc  stm32c5xx_hal_rtc.o [4]
+LL_RTC_IsEnabledBypassShadowReg
+                         0x800'0d17    0xe  Code  Lc  stm32c5xx_hal_rtc.o [4]
+LL_RTC_SetAsynchPrescaler
+                         0x800'0d43   0x12  Code  Lc  stm32c5xx_hal_rtc.o [4]
+LL_RTC_SetBinaryMode     0x800'0cf5   0x10  Code  Lc  stm32c5xx_hal_rtc.o [4]
+LL_RTC_SetConfigBinaryMode
+                         0x800'0d05   0x12  Code  Lc  stm32c5xx_hal_rtc.o [4]
+LL_RTC_SetHourFormatAndShadowRegBypass
+                         0x800'0d25   0x12  Code  Lc  stm32c5xx_hal_rtc.o [4]
+LL_RTC_SetPrescalers     0x800'0d37    0xc  Code  Lc  stm32c5xx_hal_rtc.o [4]
+LL_RTC_TIME_Config       0x800'0d6d   0x38  Code  Lc  stm32c5xx_hal_rtc.o [4]
+LL_SPI_SetConfig         0x800'1b95   0x48  Code  Lc  mx_spi1.o [3]
+LL_SPI_SetConfig         0x800'1d9b   0x48  Code  Lc  mx_spi2.o [3]
+LL_USART_ConfigAsyncMode
+                         0x800'11ad   0x12  Code  Lc  mx_uart4.o [3]
+LL_USART_ConfigAsyncMode
+                         0x800'1479   0x12  Code  Lc  mx_usart1.o [3]
+LL_USART_ConfigAsyncMode
+                         0x800'1739   0x12  Code  Lc  mx_usart2.o [3]
+LL_USART_ConfigXfer      0x800'112b   0x1a  Code  Lc  mx_uart4.o [3]
+LL_USART_ConfigXfer      0x800'13f7   0x1a  Code  Lc  mx_usart1.o [3]
+LL_USART_ConfigXfer      0x800'16b7   0x1a  Code  Lc  mx_usart2.o [3]
+LL_USART_Enable          0x800'1121    0xa  Code  Lc  mx_uart4.o [3]
+LL_USART_Enable          0x800'13ed    0xa  Code  Lc  mx_usart1.o [3]
+LL_USART_Enable          0x800'16ad    0xa  Code  Lc  mx_usart2.o [3]
+LL_USART_SetBaudRate     0x800'1145   0x68  Code  Lc  mx_uart4.o [3]
+LL_USART_SetBaudRate     0x800'1411   0x68  Code  Lc  mx_usart1.o [3]
+LL_USART_SetBaudRate     0x800'16d1   0x68  Code  Lc  mx_usart2.o [3]
+LPDMA1_CH0_IRQHandler    0x800'2c09    0x8  Code  Wk  startup_stm32c532xx.o [2]
+LPDMA1_CH1_IRQHandler    0x800'2c09    0x8  Code  Wk  startup_stm32c532xx.o [2]
+LPDMA1_CH2_IRQHandler    0x800'2c09    0x8  Code  Wk  startup_stm32c532xx.o [2]
+LPDMA1_CH3_IRQHandler    0x800'2c09    0x8  Code  Wk  startup_stm32c532xx.o [2]
+LPDMA2_CH0_IRQHandler    0x800'2c09    0x8  Code  Wk  startup_stm32c532xx.o [2]
+LPDMA2_CH1_IRQHandler    0x800'2c09    0x8  Code  Wk  startup_stm32c532xx.o [2]
+LPDMA2_CH2_IRQHandler    0x800'2c09    0x8  Code  Wk  startup_stm32c532xx.o [2]
+LPDMA2_CH3_IRQHandler    0x800'2c09    0x8  Code  Wk  startup_stm32c532xx.o [2]
+LPTIM1_IRQHandler        0x800'2c09    0x8  Code  Wk  startup_stm32c532xx.o [2]
+LPUART1_IRQHandler       0x800'2c09    0x8  Code  Wk  startup_stm32c532xx.o [2]
+MemManage_Handler        0x800'2c09    0x8  Code  Wk  startup_stm32c532xx.o [2]
+NMI_Handler              0x800'23f5    0x2  Code  ??  mx_cortex_nvic.o [3]
+NVIC_EncodePriority      0x800'1011   0x40  Code  Lc  mx_uart4.o [3]
+NVIC_EncodePriority      0x800'12dd   0x40  Code  Lc  mx_usart1.o [3]
+NVIC_EncodePriority      0x800'15a9   0x40  Code  Lc  mx_usart2.o [3]
+NVIC_EncodePriority      0x800'0a35   0x40  Code  Lc  stm32c5xx_hal_cortex.o [4]
+PWR_PVD_IRQHandler       0x800'2c09    0x8  Code  Wk  startup_stm32c532xx.o [2]
+PendSV_Handler           0x800'2c09    0x8  Code  Wk  startup_stm32c532xx.o [2]
+RAMCFG_IRQHandler        0x800'2c09    0x8  Code  Wk  startup_stm32c532xx.o [2]
+RCC_IRQHandler           0x800'2c09    0x8  Code  Wk  startup_stm32c532xx.o [2]
+RCC_WaitForTimeout       0x800'05eb   0x38  Code  Lc  stm32c5xx_hal_rcc.o [4]
+RNG_IRQHandler           0x800'2c09    0x8  Code  Wk  startup_stm32c532xx.o [2]
+RTC_IRQHandler           0x800'2c09    0x8  Code  Wk  startup_stm32c532xx.o [2]
+RTC_WaitSynchro_RS       0x800'0f6d   0x46  Code  Lc  stm32c5xx_hal_rtc.o [4]
+Region$$Table$$Base      0x800'2bc8          --   ??  - Linker created -
+Region$$Table$$Limit     0x800'2bec          --   ??  - Linker created -
+Reset_Handler            0x800'2b21   0x24  Code  Wk  startup_stm32c532xx.o [2]
+SCB_SetVTOR              0x800'2b45    0x6  Code  Lc  system_stm32c5xx.o [2]
+SPI1_IRQHandler          0x800'2c09    0x8  Code  Wk  startup_stm32c532xx.o [2]
+SPI2_IRQHandler          0x800'2c09    0x8  Code  Wk  startup_stm32c532xx.o [2]
+SVC_Handler              0x800'2c09    0x8  Code  Wk  startup_stm32c532xx.o [2]
+SysTick_Enable           0x800'0b6d    0xc  Code  Lc  stm32c5xx_hal_cortex.o [4]
+SysTick_EnableIT         0x800'0b61    0xc  Code  Lc  stm32c5xx_hal_cortex.o [4]
+SysTick_GetClkSource     0x800'0b57    0xa  Code  Lc  stm32c5xx_hal_cortex.o [4]
+SysTick_Handler          0x800'22ed    0xc  Code  ??  mx_system.o [3]
+SysTick_SetClkSource     0x800'0b39   0x1e  Code  Lc  stm32c5xx_hal_cortex.o [4]
+SysTick_SetCounter       0x800'0b91    0x6  Code  Lc  stm32c5xx_hal_cortex.o [4]
+SysTick_SetReload        0x800'0b79   0x18  Code  Lc  stm32c5xx_hal_cortex.o [4]
+SystemCoreClock         0x2000'0004    0x4  Data  ??  system_stm32c5xx.o [2]
+SystemInit               0x800'2b4b    0xa  Code  ??  system_stm32c5xx.o [2]
+TAMP_IRQHandler          0x800'2c09    0x8  Code  Wk  startup_stm32c532xx.o [2]
+TIM12_IRQHandler         0x800'2c09    0x8  Code  Wk  startup_stm32c532xx.o [2]
+TIM15_IRQHandler         0x800'2c09    0x8  Code  Wk  startup_stm32c532xx.o [2]
+TIM1_BRK_TERR_IERR_IRQHandler
+                         0x800'2c09    0x8  Code  Wk  startup_stm32c532xx.o [2]
+TIM1_CC_IRQHandler       0x800'2c09    0x8  Code  Wk  startup_stm32c532xx.o [2]
+TIM1_TRGI_COM_DIR_IDX_IRQHandler
+                         0x800'2c09    0x8  Code  Wk  startup_stm32c532xx.o [2]
+TIM1_UPD_IRQHandler      0x800'2c09    0x8  Code  Wk  startup_stm32c532xx.o [2]
+TIM2_IRQHandler          0x800'2c09    0x8  Code  Wk  startup_stm32c532xx.o [2]
+TIM6_IRQHandler          0x800'2c09    0x8  Code  Wk  startup_stm32c532xx.o [2]
+TIM7_IRQHandler          0x800'2c09    0x8  Code  Wk  startup_stm32c532xx.o [2]
+TIM8_BRK_TERR_IERR_IRQHandler
+                         0x800'2c09    0x8  Code  Wk  startup_stm32c532xx.o [2]
+TIM8_CC_IRQHandler       0x800'2c09    0x8  Code  Wk  startup_stm32c532xx.o [2]
+TIM8_TRGI_COM_DIR_IDX_IRQHandler
+                         0x800'2c09    0x8  Code  Wk  startup_stm32c532xx.o [2]
+TIM8_UPD_IRQHandler      0x800'2c09    0x8  Code  Wk  startup_stm32c532xx.o [2]
+UART4_IRQHandler         0x800'2c09    0x8  Code  Wk  startup_stm32c532xx.o [2]
+UART5_IRQHandler         0x800'2c09    0x8  Code  Wk  startup_stm32c532xx.o [2]
+USART1_IRQHandler        0x800'2c09    0x8  Code  Wk  startup_stm32c532xx.o [2]
+USART2_IRQHandler        0x800'2c09    0x8  Code  Wk  startup_stm32c532xx.o [2]
+USART_PRESCALER_TAB      0x800'29fc   0x40  Data  Lc  mx_uart4.o [3]
+USART_PRESCALER_TAB      0x800'2a3c   0x40  Data  Lc  mx_usart1.o [3]
+USART_PRESCALER_TAB      0x800'2a7c   0x40  Data  Lc  mx_usart2.o [3]
+USB_DRD_FS_IRQHandler    0x800'2c09    0x8  Code  Wk  startup_stm32c532xx.o [2]
+UsageFault_Handler       0x800'2c09    0x8  Code  Wk  startup_stm32c532xx.o [2]
+WWDG_IRQHandler          0x800'2c09    0x8  Code  Wk  startup_stm32c532xx.o [2]
+__NVIC_EnableIRQ         0x800'0fc1   0x20  Code  Lc  mx_uart4.o [3]
+__NVIC_EnableIRQ         0x800'128d   0x20  Code  Lc  mx_usart1.o [3]
+__NVIC_EnableIRQ         0x800'1559   0x20  Code  Lc  mx_usart2.o [3]
+__NVIC_EnableIRQ         0x800'09e5   0x20  Code  Lc  stm32c5xx_hal_cortex.o [4]
+__NVIC_GetPriorityGrouping
+                         0x800'0fb5    0xc  Code  Lc  mx_uart4.o [3]
+__NVIC_GetPriorityGrouping
+                         0x800'1281    0xc  Code  Lc  mx_usart1.o [3]
+__NVIC_GetPriorityGrouping
+                         0x800'154d    0xc  Code  Lc  mx_usart2.o [3]
+__NVIC_GetPriorityGrouping
+                         0x800'09d7    0xc  Code  Lc  stm32c5xx_hal_cortex.o [4]
+__NVIC_SetPriority       0x800'0fe1   0x30  Code  Lc  mx_uart4.o [3]
+__NVIC_SetPriority       0x800'12ad   0x30  Code  Lc  mx_usart1.o [3]
+__NVIC_SetPriority       0x800'1579   0x30  Code  Lc  mx_usart2.o [3]
+__NVIC_SetPriority       0x800'0a05   0x30  Code  Lc  stm32c5xx_hal_cortex.o [4]
+__NVIC_SetPriorityGrouping
+                         0x800'09b5   0x22  Code  Lc  stm32c5xx_hal_cortex.o [4]
+__aeabi_memset           0x800'2799         Code  ??  ABImemset.o [6]
+__cmain                  0x800'2b79         Code  ??  cmain.o [6]
+__exit                   0x800'2bbd         Code  ??  XXexit.o [6]
+__iar_Memset             0x800'2799         Code  ??  ABImemset.o [6]
+__iar_Memset_word        0x800'27a1         Code  ??  ABImemset.o [6]
+__iar_copy_init3         0x800'0623   0x2a  Code  ??  copy_init3.o [6]
+__iar_data_init3         0x800'2af5   0x18  Code  ??  data_init.o [6]
+__iar_program_start      0x800'2b5d         Code  ??  cstartup_M.o [6]
+__iar_unaligned_memcpy4
+                         0x800'2025         Code  ??  ABImemcpy_unaligned.o [6]
+__iar_unaligned_memcpy8
+                         0x800'2025         Code  ??  ABImemcpy_unaligned.o [6]
+__iar_zero_init3         0x800'2abd   0x38  Code  ??  zero_init3.o [6]
+__vector_table           0x800'0000  0x1a4  Data  ??  startup_stm32c532xx.o [2]
+_call_main               0x800'2b85         Code  ??  cmain.o [6]
+_exit                    0x800'2bb1         Code  ??  cexit.o [6]
+exit                     0x800'2bad    0x4  Code  ??  exit.o [5]
+hADC1                   0x2000'0030   0x18  Data  ??  App_RAM.o [1]
+hFDCAN1                 0x2000'000c   0x24  Data  Lc  mx_fdcan1.o [3]
+hICACHE                 0x2000'0054    0x8  Data  Lc  mx_icache.o [3]
+hIWDG                   0x2000'0048    0xc  Data  Lc  mx_iwdg.o [3]
+main                     0x800'2b97   0x16  Code  ??  main.o [1]
+mx_adc1_init             0x800'2585   0xa2  Code  ??  STM32_Config.o [1]
+mx_cortex_mpu_init       0x800'22f9   0x50  Code  ??  mx_cortex_mpu.o [3]
+mx_cortex_nvic_init      0x800'23c1   0x30  Code  ??  mx_cortex_nvic.o [3]
+mx_fdcan1_init           0x800'1efb  0x104  Code  ??  mx_fdcan1.o [3]
+mx_gpio_default_init     0x800'20bf   0xee  Code  ??  mx_gpio_default.o [3]
+mx_icache_gethandle      0x800'2413    0x4  Code  ??  mx_icache.o [3]
+mx_icache_init           0x800'23f9   0x1a  Code  ??  mx_icache.o [3]
+mx_iwdg_init             0x800'2641   0x1a  Code  ??  mx_iwdg.o [3]
+mx_rcc_init              0x800'2465   0xac  Code  ??  mx_rcc.o [3]
+mx_rcc_peripherals_clock_config
+                         0x800'2515   0x2c  Code  ??  mx_rcc.o [3]
+mx_rtc_init              0x800'269d   0xe2  Code  ??  mx_rtc.o [3]
+mx_spi1_init             0x800'1bdd   0x8c  Code  ??  mx_spi1.o [3]
+mx_spi2_init             0x800'1de3   0x94  Code  ??  mx_spi2.o [3]
+mx_system_init           0x800'21c1  0x12c  Code  ??  mx_system.o [3]
+mx_uart4_uart_init       0x800'11bf   0x8c  Code  ??  mx_uart4.o [3]
+mx_usart1_uart_init      0x800'148b   0x8c  Code  ??  mx_usart1.o [3]
+mx_usart2_uart_init      0x800'174b   0x84  Code  ??  mx_usart2.o [3]
+uwTick                  0x2000'005c    0x4  Data  ??  stm32c5xx_hal.o [4]
+uwTickFreq              0x2000'0008    0x1  Data  ??  stm32c5xx_hal.o [4]
+uwTickPrio              0x2000'0000    0x4  Data  ??  stm32c5xx_hal.o [4]
+
+
+[1] = E:\Jeevan\PROJECTS_EDS\AIS_140\Firmware\AIS_140\AIS_140_ewarm\project\debug\Obj\Core_2780535767142203951.dir
+[2] = E:\Jeevan\PROJECTS_EDS\AIS_140\Firmware\AIS_140\AIS_140_ewarm\project\debug\Obj\STM32C532RCT6_6035943374248636691.dir
+[3] = E:\Jeevan\PROJECTS_EDS\AIS_140\Firmware\AIS_140\AIS_140_ewarm\project\debug\Obj\hal_4432538364089314290.dir
+[4] = E:\Jeevan\PROJECTS_EDS\AIS_140\Firmware\AIS_140\AIS_140_ewarm\project\debug\Obj\hal_8047967989472228730.dir
+[5] = dl7M_tln.a
+[6] = rt7M_tl.a
+
+  10'606 bytes of readonly  code memory
+     676 bytes of readonly  data memory
+   1'117 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
